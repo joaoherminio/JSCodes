@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(13, 13, 13, 0.841);
+}
+
+.cabecalho_link {
+    text-decoration: none;
+    color: blue;
+    display: inline;
+    gap: 80px;
+    padding: 1% 1% 1% 1%;
+    font-size: 20px;
+}
+
+.cabecalho_link:hover{
+    background-color: rgb(159, 159, 234);
+}
+
+.projeto_titulo {
+    color: white;
+    padding: 10px;
+}
+
+.projeto_subtitulo {
+    color:white;
+    padding-top: 5px;
+}
+.projeto_p1 {
+    color: white;
+    font-weight: 100;
+    font-family: "Krona One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.projeto_p2 {
+    color: white;
+    font-weight: 100;
+    font-family: "Krona One", sans-serif;
+    display: flex;
+    flex-direction: line;
+    padding-left: 30px;
+}
+
+.conteudo_link {
+    color: red;
+    text-decoration: none;
+    padding-left: 30px;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.conteudo_link:hover {
+    background-color: rgb(222, 116, 116);
+}
+
+.rodape {
+    color: white;
+    font-family: "Krona One", sans-serif;
+    padding: 24px;
+}
+
+.logo_coca-cola {
+    width: 500px;
+    height: 500px;
+    border: solid;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.logo_boeing {
+    width: 500px;
+    height: 500px;
+    border: solid;
+    margin-right: 20px;
+}
+
+.cocacola-garrafa{
+    width: 500px;
+    height: 500px;
+    padding-left: 50px;
+}
+
+.aviao_branco {
+    width: 500px;
+    height: 500px;
+    padding-left: 50px;
+}
